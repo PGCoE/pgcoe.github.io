@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+ 
+nav {
+    background-color: #01B1D3;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    color: #055A5E;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: #055A5E;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #027B84;
+}
+
+nav a.active {
+    text-decoration: underline;
+    color: #033C3F; 
+}
+
+footer {
+    background-color: #01B1D3; 
+    text-align: center; 
+    padding: 1rem; 
+    font-family: 'Raleway', sans-serif;
+}
+
+footer a {
+    color: #055A5E;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #027B84;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #055A5E;
+    text-align: left;
+    margin: 0 0 1rem 0;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #055A5E;
+    text-align: left;
+    margin: 0 0 1rem 0;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    text-align: left;
+    margin: 0;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    padding: 4rem;
+}
+
+.top-container .content {
+    flex: 1;
+    padding-right: 4rem;
+}
+
+.top-container img {
+    width: 20vw;
+    height: auto;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #DCE7E8;
+    padding: 2rem;
+}
+
+.bottom-container .outer {
+    margin-left: 2.5rem; /* Slight indentation at 1rem, formerly 5% then 2.5% - 1rem = 1 relative to text size, % is relative to nearest block container's width */
+}
+
+.bottom-container .inner {
+    margin-left: 5rem; /* Slightly more indentation at 2rem, formerly 7.5% then 5% */
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem; /* Slight indentation */
+}
